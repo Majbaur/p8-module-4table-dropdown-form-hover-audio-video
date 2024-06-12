@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML table</title>
+    <link rel="stylesheet" href="style/blog.css">
+    <style>
+        table{
+            border-collapse: collapse;
+            
+        }
+        /* thead>tr> th{
+            border: 1px solid black;
+            padding: 5px 10px;
+        } */
+        td, th{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="audioVideo.html">audioVideo</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="dropdownMenue.html">Dropdown</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <H1>HTML Table</H1>
+        <table>
+            <caption>Employee Salary Data: </caption>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Full Name</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Apple</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Google</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mark Zuckeberg</td>
+                    <td>Facebook</td>
+                    <td>$1300</td>
+                </tr>                
+            </tbody> 
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total Employee: 4</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <p><small> &copy;2030. All Rights Reserved</small></p>
+    </footer>
+
+</body>
+</html>
